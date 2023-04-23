@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        <h1>It's work</h1>
+        <h1>Выберите пиццу:</h1>
         <Header/>
         <Routes>
          <Route index element ={<ProductList/>}/>
